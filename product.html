@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Veggies - Product Details</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #4CAF50; color: white; padding: 10px; text-align: center; }
+        nav { background-color: #333; color: white; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .details { display: flex; padding: 10px; background: white; margin: 20px; border-radius: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .details img { width: 300px; height: 250px; margin-right: 20px; border-radius: 15px}
+        button { background-color: #4CAF50; color: white; border: none; padding: 10px; cursor: pointer; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; position: fixed; width: 100%; bottom: 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fresh Veggies - Product Details</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="product.html">Product Details</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section class="details">
+        <div>
+        <img src="https://images.unsplash.com/photo-1582515073490-39981397c445?w=400&h=300&fit=crop" alt="Carrots">
+            <h2>Carrots</h2>
+            <p>Price: 35/kg</p>
+            <p>Description: Fresh, crunchy carrots perfect for salads or snacks. Grown organically.</p>
+            <button onclick="alert('Added to cart!')">Add to Cart</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Fresh Veggies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
