@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Veggies - Cart</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #4CAF50; color: white; padding: 10px; text-align: center; }
+        nav { background-color: #333; color: white; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .cart { background: white; padding: 10px; margin: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+        button { background-color: #4CAF50; color: white; border: none; padding: 10px; cursor: pointer; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; position: fixed; width: 100%; bottom: 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fresh Veggies - Cart</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="product.html">Product Details</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section class="cart">
+        <h2>Your Cart</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Carrots</td>
+                <td>35/-</td>
+                <td>2 kg</td>
+                <td>70/-</td>
+            </tr>
+            <tr>
+                <td>Tomatoes</td>
+                <td>37/-</td>
+                <td>1 kg</td>
+                <td>37/-</td>
+            </tr>
+            <tr>
+                <td>Potato</td>
+                <td>32/-</td>
+                <td>1 kg</td>
+                <td>32/-</td>
+            </tr>
+        </table>
+        <p><strong>Grand Total: 139/-</strong></p>
+        <button onclick="alert('Checkout not implemented!')">Checkout</button>
+    </section>
+    <footer>
+        <p>&copy; 2023 Fresh Veggies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
